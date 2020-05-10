@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <title>Document</title>
+    <style>
+        .check{
+            text-decoration: line-through;
+        }
+        .uncheck{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="text" value='' class="form-control" style="margin:10px;"> <button class="btn btn-success" id="add" style="display:block;width:20%;margin:10px auto 10px auto;">ADD</button>
+    <div id="added">Errand Added</div>
+    <div id="deleted">Errand Deleted</div>
+    <div id="completed">Errand Completed</div>
+    <div id="readded">Errand Readded</div>
+    <table class="table table-striped" style="margin-top:80px;" >
+        <tbody id="list">
+            <tr>
+                <td> <input type="checkbox" name="" class="check"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, neque. </td>
+               
+                <td><button  class="btn btn-danger pull-right">x</button> </td>
+            </tr>
+        <tr>
+            <td><input type="checkbox" name="" class="check"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, cumque?</td>
+            <td><button class="btn btn-danger pull-right">x</button> </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="" class="check"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veniam! </td>
+            <td><button class="btn btn-danger pull-right">x</button> </td>
+        </tr>
+        <tr>
+            <td style><input type="checkbox" name="" class="check"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptatem!</td>
+            <td><button class="btn btn-danger pull-right">x</button> </td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+<script src="main.js"></script>
+
+</html>
